@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{5c4833a1-63a4-4fc1-bfa7-b7c1e67a6361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Core">
+      <UniqueIdentifier>{c257f671-9092-4e8f-821c-024c858463d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ExampleGame">
+      <UniqueIdentifier>{c021e7a7-a89c-4997-b76a-5b5f64a8ff80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ExampleGame">
+      <UniqueIdentifier>{9659eb56-a71b-4bad-b277-8f3352c651b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ExampleGame\ExampleScene">
+      <UniqueIdentifier>{911f45c8-4d8d-4ab3-8dbd-37dbb381e220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ExampleGame\ExampleScene\Components">
+      <UniqueIdentifier>{f36d8b3e-9118-4efc-ba76-dd14cf077ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ExampleGame\ExampleScene2">
+      <UniqueIdentifier>{207386e7-a3ae-4015-b2ec-9fce701addb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ExampleGame\ExampleScene2\Components">
+      <UniqueIdentifier>{5ee4aa79-c5da-4972-8e66-53494f8a5691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ExampleGame\Util">
+      <UniqueIdentifier>{2ef17cae-6fca-4ead-8be5-976ffb7975e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ExampleGame\ExampleScene">
+      <UniqueIdentifier>{4f48f7c0-ff61-4843-8c24-58e77153b7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ExampleGame\ExampleScene2">
+      <UniqueIdentifier>{146834cf-43f5-4a9d-85db-1f6ff40f234c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ExampleGame\ExampleScene\Components">
+      <UniqueIdentifier>{252315e5-2239-4df8-bbfe-8e256b20ac7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ExampleGame\ExampleScene2\Components">
+      <UniqueIdentifier>{55fc3d4d-8e94-41c0-b850-83f89cdab87b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomComponent.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSetting.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h">
+      <Filter>헤더 파일\ExampleGame\ExampleScene\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObjectRender.h">
+      <Filter>헤더 파일\ExampleGame\ExampleScene\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleScene.h">
+      <Filter>헤더 파일\ExampleGame\ExampleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueCubeMesh.h">
+      <Filter>헤더 파일\ExampleGame\ExampleScene2\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleScene2.h">
+      <Filter>헤더 파일\ExampleGame\ExampleScene2</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleGameSetting.h">
+      <Filter>헤더 파일\ExampleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderHelper.h">
+      <Filter>헤더 파일\ExampleGame\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomComponent.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueCubeMesh.cpp">
+      <Filter>소스 파일\ExampleGame\ExampleScene2\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleGameSetting.cpp">
+      <Filter>소스 파일\ExampleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleScene2.cpp">
+      <Filter>소스 파일\ExampleGame\ExampleScene2</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleScene.cpp">
+      <Filter>소스 파일\ExampleGame\ExampleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일\ExampleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TestComponent.cpp">
+      <Filter>소스 파일\ExampleGame\ExampleScene\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObjectRender.cpp">
+      <Filter>소스 파일\ExampleGame\ExampleScene\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
